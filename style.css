@@ -92,6 +92,9 @@ background-color: #546560;
     border-radius: 20px;
     margin-left: 136px;
 }
+.seemore:hover{
+    background-color: antiquewhite;
+}
 /* para 3 */
 .Legends{
     color: white;
