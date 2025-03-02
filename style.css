@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.parallax:nth-child(1){
+    background-image: url("https://myindianthings.com/cdn/shop/products/25_d84225da-949a-40e4-af23-184b573cd846_800x.jpg?v=1675946271");
+}
+.parallax:nth-child(2){
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5e7676419cf21d77fdeb495b/16a40dd5-7ffe-4402-a341-3bd688c27bd2/London-Harry-Potter-Tour-Hogwarts.jpg");
+}
+.parallax:nth-child(3){
+    background-image: url("https://deadline.com/wp-content/uploads/2023/04/harry-potter.jpg");
+}
+.parallax:nth-child(4){
+    background-image: url("https://wallpapercave.com/wp/wp2837592.jpg");
+}
+.parallax:nth-child(5){
+    background-image: url("https://www.wallart.com/media/catalog/product/cache/296967dd00486cb8867f6b6fbb192224/w/0/w08024-small.jpg");
+}
+.parallax:nth-child(6){
+    background-image: url("https://4kwallpapers.com/images/wallpapers/hogwarts-harry-1920x1080-13694.jpg");
+}
+.content-para1 {
+    color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+    padding-left: 20px;
+}
+.content h1{
+    font-size: clamp(2rem,5vw,6rem);
+}
+#logo{
+    width: 369px;
+    height: 130px;
+}
+.logo-text{
+    font-size: 1.3em;
+    color: #7f4141;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bolder;
+    padding-left: 62px;}
+.content button{
+    padding: 12px;
+    border-radius: 75px;
+    border: 2px solid black;
+   background-color: transparent;
+   margin-left: 117px;
+   margin-top: 10px;
+}
+.content button:hover{
+background-color: #546560;
+    
+}
+/* para2 */
+.heading{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+.hii{
+    margin-left: 25px;
+    background-color: rgba(125, 137, 104, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid ;
+}
+.hii:hover{
+    transform: scale(1.1);
+}
+.hii h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.seemore{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #94a19d;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 136px;
+}
+/* para 3 */
+.Legends{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+.content-para3{
+    background-color: rgba(61, 52, 12, 0.2);
+}
+.frnds{
+    margin-left: 25px;
+    background-color: rgba(125, 137, 104, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid ;
+}
+.about{
+    text-align: center;
+    font-weight: 600;
+    color: #121313;
+}
+.harry {
+    font-family: "Playfair Display", serif;
+
+text-align: center;}
+.seemore2{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #94a19d;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 95px;
+}
+.seemore2:hover{
+    background-color: black;
+    color: white;
+}
+/* para4 */
+.movie-head{
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+
+}
+.movies{
+    margin-left: 15px;
+    background-color: rgba(148, 152, 142, 0.5);
+    border-radius: 20px;
+    padding: 15px ;
+    border: 1px solid ;
+}
+.movies h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 20, 20);
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.movies img{
+    margin-left: 34px;
+}
+.movies a{
+    text-decoration: none;
+    background-color: #7f4141;
+    border-radius: 20px;
+    padding: 5px; 
+    margin-top: 5px ;
+    margin-left: 69px;
+}
+.movies a:hover{
+    background-color: wheat;
+    color: black;
+    transition: scale(1.5); 
+}
+/* para5 */
+.shoping{
+    margin-left: 25px;
+    background-color: rgba(70, 71, 67, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid ;
+}
+.cart{
+    background-color: #c6c66a;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.rs{
+    font-weight: bold;
+    padding-left: 9px ;
+}
+.wands{
+    
+    font-weight: bold;
+    color: #131716;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.buy{
+    background-color: #c07c70;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.cart:hover{
+    background-color: #e6e630;
+   
+}
+.buy:hover{
+    background-color: #da462c;
+   
+}
+.go{
+    width: 200px;
+    padding: 6px;
+    border-radius: 23px;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 100px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: slateblue;
+    background-color: aliceblue;
+}
+.go:hover{
+    background-color: #131716;
+color: white;
+}
+/* last page */
+.end{
+ 
+    font-family: "Playfair Display", serif;
+    text-align: center;
+   
+}
+.end2{
+    background-color: transparent;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 15px;
+   width: 50px;
+   
+    
+    
+}
+.end2:hover{
+    background:#94a19d;
+    color: aliceblue;
+}
